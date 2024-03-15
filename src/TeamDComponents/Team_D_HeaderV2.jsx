@@ -154,7 +154,7 @@ const Team_D_HeaderV2 = ({ onUserDataFetched, openModal, showModal }) => { // Pa
   return (
     <>
       <nav className="navbar_TeamD">
-      <NavLink to="/" onClick={closeMobileNavbar}>
+      <NavLink to="/TeamCdashboard" onClick={closeMobileNavbar}>
           <img className="teamDimg" src={TsukidenLogo} alt="Logo" />
         </NavLink>
         <div>
